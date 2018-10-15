@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title> my first form </title>
+</head>
+<body>
+
+
+
+
+<h1>  form 1  </h1>
+<form name="registor" action="/surveys/submitSurvey.php" enctype="multipart/form-data" method="POST">
+
+
+
+        <label>  first name  </label>
+
+        <input type="text" placeholder="type yor name" >
+
+        <label>last name</label>
+        <input type="text" placeholder="type yor  name
+        ">  <br> <br><br>
+        E-mail:
+        <input type="email" name="email"><br><br><br>
+
+
+        <label>password </label>
+        <input type="password" placeholder="type yor password">
+
+        <input type="checkbox">
+        <label> REMEMBER ME  </label> <BR> <BR>
+            
+        <input type="SUBMIT" value="LOG IN "> <br><br>
+        your age : <br>
+
+       <label>18</label> <input type="range" name="points" min="18" max="25"><label>25</label>
+        
+        
+        
+        
+        
+        <br><br> <p>describe coding project you done befor .</p>
+
+  
+          <textarea name="message" rows="10" cols="30">type here .....</textarea>
+          <br>
+          <input type="submit">
+        </form>
+
+
+        <label for="avatar">screen shot for a project:</label>
+        <input type="file[]"
+
+               id="avatar" name="avatar"
+               accept="image/png, image/jpeg" /><br>
+               <br>
+
+<p2> have you done the project ? </p2>
+
+<br>
+
+               <input type="radio" name="option" value="no" checked> no<br>
+  <input type="radio" name="option" value="yes"> yes<br>
+        
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
